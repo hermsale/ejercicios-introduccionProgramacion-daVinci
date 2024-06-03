@@ -26,8 +26,9 @@ public class App {
             System.out.print(String.format(formatCategorias, categorias[i]));
         }
         System.out.print('\n');
-        
+         
         // ordenar columnas de menor a mayor 
+        
         matriz = OrdenarMatriz(matriz);
         MostrarMatriz(matriz,formatGastos);
         
